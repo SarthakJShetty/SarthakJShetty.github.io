@@ -6,55 +6,87 @@
 	<meta name="author" content="Sarthak J. Shetty">
 	<meta name="description" content="Personal Projects page">
 	<link rel="shortcut icon" type="ico" href="https://raw.githubusercontent.com/SarthakJShetty/SarthakJShetty.github.io/master/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="../style.css">
 	<title>Projects</title>
 
-</head>
-	<li><a href="../index.html#Main_Heading" title="Homepage">Home</a></li>
-	<li><a href="#Projects" title="Projects">Projects</a></li>
-	<li><a href="mailto:sarthakjs.me15@rvce.edu.in?bcc=sarthakshetty97@gmail.com&subject=Getting%20in%20touch" title="Get in touch!">Contact</a></li>
-	<li>CV</li>
+</head><body>
+	<header><h1 id="Projects-Main-Heading"><a href="../index.html#Main_Heading">Sarthak J. Shetty</a></h1></header>
+	<nav><a href="../index.html#Main_Heading" title="Homepage">Home</a>
+	<a title="Me" href="../index.html#About_Me">About me</a>
+	<a href="#Projects" title="Projects">Projects</a>
+	<a href="mailto:sarthakjs.me15@rvce.edu.in?bcc=sarthakshetty97@gmail.com&subject=Getting%20in%20touch" title="Get in touch!">Contact</a>
+	<a href="mailto:sarthakjs.me15@rvce.edu.in" title="Send a mail">CV</a></nav>
+	<br><form>
+		<input type="
+		search" name="q" placeholder="Search Query">
+		<input type="submit" name="Go!">
+	</form></br>
 
 <h1 id="Projects">Projects</h1>
-<h2>On-going Projects</h2>
+<h2 id="On-going-Projects">On-going Projects</h2>
 	<dt><strong><a title="Personal Github Page" href="https://github.com/SarthakJShetty/SarthakJShetty.github.io" target="_blanktype">Personal Github Page</a></strong>
 	<dd>
+		<ul>
 		<li>Building a personal webpage to showcase projects and other information.</li>
-		<li>Github page written in HTML for now. Will be integrating new concepts as time progresses.</li>
-		<li>CSS and Javascript will be added for additional functionality. Soon.</li>
+		<li>Github page written in <abbr title="HyperText Markup Language">HTML</abbr> for now. Will be integrating new concepts as time progresses.</li>
+		<li><abbr title="Cascade Style Sheets">CSS</abbr> and Javascript will be added for additional functionality. Soon.</li>
+	</ul>
 	</dd>
 	</dt>
 	<dt><strong><a title="Operation Research" href="https://github.com/SarthakJShetty/ORM" target="_blanktype">Visualization Tools for Operation Research</a></strong></dt>
 		<dd>
+			<ul>
 			<li>Building a tool to visualize the critical point between start and end nodes in a network of activities.</li>
 			<li>Currently working towards determining start & stop times in the reverse direction.</li>
 			<li>Code is written primarily in Python.</li>
+		</ul>
 		</dd>
-<h2>Completed Projects</h2>
+<h2 id="Completed-Projects">Completed Projects</h2>
 <dl>
 	<dt><a title="Differential Drive Donkey Car" href="https://github.com/SarthakJShetty/My-Donkey" target="_blanktype"><strong>Differential Drive Donkey Car</strong></a></dt>
 	<dd>
-		<li>Build a differential drive Donkey Car, a drivereless small scale vehicle.</li>
+		<ul>
+			<li>Build a differential drive Donkey Car, a drivereless small scale vehicle.</li>
 		<li>A TensorFlow based Autopilot was trained on nearly 10,000 images of a track.</li>
 		<li>The Autopilot was then used to drive the vehicle autonomously. Check it out <a title="DonkeyCar in action" href="https://youtu.be/0Sid7q3nsWY" target="_blanktype">here!</a></li>
+	</ul>
 	</dd>
 	<dt><a title="Robotic Arm" href="https://github.com/SarthakJShetty/Arm" target="_blanktype"><strong>4 Degrees of Freedom Gesture Controlled Robotic Arm</strong></a></dt>
 	<dd>
+		<ul>
 		<li>3D printed robotic arm controlled by human gestures through a Microsoft Kinect Sensor.</li>
 		<li>Right arm gestures were mimicked by the Arm, whereas left arm was used for orientation.</li>
 		<li>The code was written in primarily Arduino and Processing, paired with OpenNI library for collection of skeletal data.</li>
+	</ul>
 	</dd>
 	<dt><a title="Fracture-Detection System" href="https://github.com/SarthakJShetty/Fracture-Detection" target="_blanktype"><strong>Fracture-Detection System</strong></a></dt>
 	<dd>
+		<ul>
 		<li>Built a fracture detection system to identify fractures and potential points of fracturing in manufactured components, and accordingly predictions were made for the same.</li>
 		<li>The system was based on primarily OpenCV through which fractures were visualized.</li>
 		<li>A TensorFlow model, trained on a dataset of normal and fractured gear images was used to make predictions.</li>
+	</ul>
 	</dd>
 	<dt><strong><u> Ultrasonic Based Obstacle Avoider</u></strong>
 	</dt>
-	<dd>
+	<dd><ul>
 		<li>Built an Arduino based mobile robot, capable of avoiding obstacles.</li>
 		<li>Bot comprised of three ultrasonic sensors oriented in three different directions whicch actively detect obstacles around them.</li>
 		<li>The project was a great starting point to learn the basics of Arduino programming.</li>
+	</ul>
+	</dd>
+	<dt><strong><u>Line Follower Bot</u></strong></dt>
+	<dd>
+		<ul>
+		<li>Built a line follower bot that followed a black stripe overlaid on a white track.</li>
+		<li>The Bot has an Arduino Uno onboard, which follows a black line using three infrared sensors.</li>
+		<li>This project was one of the first projects built once inducted into the robotics club.</li>
+	</ul>
 	</dd>
 	</dl>
+	<hr>
+	<address><p>Mysore Road, Bengaluru-59</p></address>
+	<div class="up-button"><a title="Head back up!" href="#Projects-Main-Heading" >Go back up</a></div><br>
+	<footer>© Copyright 2018 Sarthak J. Shetty. All rights reserved.</footer>
+</body>
 </html>
