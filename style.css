@@ -1,0 +1,14 @@
+html {
+  background-color: white;
+  font-size: 20px;
+  font-family: "Helvetica";
+}
+ul {
+	font-family: "Helvetica";
+}
+footer{
+	font-family: "Times New Roman";
+}
+li {
+  margin-left: 20px;
+}
