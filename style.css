@@ -55,6 +55,11 @@ progress::-webkit-progress-value{
 progress::-moz-progress-bar{
 	background-color: black;
 }
+.github_link{
+	position: relative;
+	top: 5px;
+	left: 5px;
+}
 input[type=text],
 input[type=email],
 input[type=number],
@@ -68,6 +73,7 @@ fieldset{
 }
 a.Project_Heading:link{
 	color: black;
+	text-decoration: none;
 }
 a.Project_Heading:visited{
 	color: black;
