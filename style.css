@@ -75,6 +75,19 @@ progress::-moz-progress-bar{
 	top: 7px;
 	left: 5px;
 }
+
+.links{
+	-webkit-transition: opacity 0.2s ease-in-out;
+	-moz-transition: opacity 0.2s ease-in-out;
+	transition: 0.2s;
+	text-decoration: none;
+}
+.links:hover{
+	color:black;
+	zoom:1;
+	-webkit-transition: 0.2s;
+	opacity: 0.80;
+}
 input[type=text],
 input[type=email],
 input[type=number],
@@ -87,6 +100,7 @@ fieldset{
 	margin: 0px;
 }
 header{
+	text-decoration: none;
 	font-size: 150%;
 }
 a.Project_Heading:link{
