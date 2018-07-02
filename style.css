@@ -67,7 +67,7 @@ progress::-moz-progress-bar{
 .nav_bar_elements:hover {
 	color: black;
   	zoom: 1;
- 	-webkit-transition:0.2s;
+ 	-webkit-transition:0.5s;
  	opacity: 0.80;
 }
 .github_link{
@@ -77,15 +77,14 @@ progress::-moz-progress-bar{
 }
 
 .links{
-	-webkit-transition: opacity 0.2s ease-in-out;
-	-moz-transition: opacity 0.2s ease-in-out;
-	transition: 0.2s;
+	-webkit-transition: opacity 0.5s ease-in-out;
+	-moz-transition: opacity 0.5s ease-in-out;
 	text-decoration: none;
 }
 .links:hover{
 	color:black;
 	zoom:1;
-	-webkit-transition: 0.2s;
+	-webkit-transition: 0.5s;
 	opacity: 0.80;
 }
 input[type=text],
