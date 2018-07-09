@@ -14,7 +14,6 @@ textarea{
 	background-color: black;
 	height: 2px;
 }
-
 figcaption{
 	font-size: 15px;
 }
@@ -88,17 +87,6 @@ progress::-moz-progress-bar{
 	-webkit-transition: 0.5s;
 	opacity: 0.80;
 }
-input[type=text],
-input[type=email],
-input[type=number],
-textarea,
-fieldset{
-	width: 75%;
-	border: 3px dashed black;
-	box-sizing: border-box;
-	font-family: "Helvetica";
-	margin: 0px;
-}
 header{
 	text-decoration: none;
 	font-size: 150%;
@@ -116,14 +104,12 @@ a.Top_Heading:visited{
 a.Top_Heading:link{
 	color:black;
 }
-
 a:link{
 	color: grey;
 }
 a:visited{
 	color: grey;
 }
-
 h2{
 	color: grey;
 }
@@ -142,21 +128,8 @@ footer{
 	font-family: "Times New Roman";
 	font-style: italic;
 }
-
 li {
   	margin-left: 20px;
-}
-table{
-	background-color: red;
-}
-thead{
-	background-color: blue;
-	font-family: "Helvetica"
-}
-tfoot{
-	font-size: 90%;
-	background-color: red;
-	font-family: "Times New Roman";
 }
 tbody{
 	background-color: white;
