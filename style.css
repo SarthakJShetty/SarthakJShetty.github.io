@@ -6,6 +6,9 @@ html {
 textarea{
 	font-family: "Helvetica";
 }
+header{
+	text-align: center;
+}
 .thin_hr{
 	height: 0.5px;
 	background-color: none;
@@ -22,8 +25,6 @@ body{
 	padding: 1em 1em 1em 1em;
 	margin: 0 auto;
 	max-width: auto;
-}
-body{
 	margin-left: 30px ;
 }
 @media(min-width: 70em){
@@ -56,6 +57,10 @@ progress::-webkit-progress-value{
 }
 progress::-moz-progress-bar{
 	background-color: black;
+}
+.first-para::first-letter{
+	font-size:180%;
+	color: red;
 }
 .nav_bar_elements {
 	-webkit-transition: opacity 0.2s ease-in-out;
