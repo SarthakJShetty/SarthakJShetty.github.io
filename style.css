@@ -9,9 +9,6 @@ textarea{
 header{
 	text-align: center;
 }
-p{
-	font-size: 18px;
-}
 .thin_hr{
 	height: 0.5px;
 	background-color: none;
@@ -28,12 +25,7 @@ body{
 	padding: 1em 1em 1em 1em;
 	margin: 0 auto;
 	max-width: auto;
-	margin-left: 30px ;
-}
-@media(min-width: 70em){
-body{
-	font-size: 130%;
-}
+	margin-left: 30px;
 }
 address{
 	font-family: "Bookman Old Style";
@@ -80,8 +72,8 @@ progress::-moz-progress-bar{
 .github_link{
 	text-decoration: none;
 	position: relative;
-	top: 8px;
-	left: 1px;
+	top: 5px;
+	left: 2px;
 	height:32px;
 	width: 32px;
 }
@@ -94,9 +86,9 @@ progress::-moz-progress-bar{
 }
 .links:hover{
 	color:black;
-	zoom:none;
+	zoom:1;
 	-webkit-transition: 0.5s;
-	opacity: 0.40;
+	opacity: 0.80;
 }
 header{
 	text-decoration: none;
