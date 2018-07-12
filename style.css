@@ -9,6 +9,9 @@ textarea{
 header{
 	text-align: center;
 }
+p{
+	font-size: 18px;
+}
 .thin_hr{
 	height: 0.5px;
 	background-color: none;
@@ -75,6 +78,7 @@ progress::-moz-progress-bar{
  	opacity: 0.80;
 }
 .github_link{
+	text-decoration: none;
 	position: relative;
 	top: 7px;
 	left: 5px;
@@ -102,6 +106,7 @@ a.Project_Heading:link{
 }
 a.Project_Heading:visited{
 	color: black;
+	text-decoration: none;
 }
 a.Top_Heading:visited{
 	color: black;
@@ -132,6 +137,7 @@ input:valid{
 footer{
 	font-family: "Times New Roman";
 	font-style: italic;
+	font-size: 18px;
 }
 li {
   	margin-left: 20px;
