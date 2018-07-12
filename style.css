@@ -80,8 +80,10 @@ progress::-moz-progress-bar{
 .github_link{
 	text-decoration: none;
 	position: relative;
-	top: 7px;
-	left: 5px;
+	top: 8px;
+	left: 1px;
+	height:32px;
+	width: 32px;
 }
 
 .links{
@@ -92,9 +94,9 @@ progress::-moz-progress-bar{
 }
 .links:hover{
 	color:black;
-	zoom:1;
+	zoom:none;
 	-webkit-transition: 0.5s;
-	opacity: 0.80;
+	opacity: 0.40;
 }
 header{
 	text-decoration: none;
