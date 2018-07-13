@@ -29,7 +29,7 @@ body{
 }
 address{
 	font-family: "Bookman Old Style";
-	font-size: 25px;
+	font-size: 75%;
 }
 ul{
 	font-family: "Helvetica";
@@ -132,6 +132,9 @@ footer{
 	font-family: "Times New Roman";
 	font-style: italic;
 	font-size: 18px;
+}
+footer{
+	font-size: 50%;
 }
 li {
   	margin-left: 20px;
