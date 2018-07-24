@@ -1,4 +1,4 @@
-html {
+html{
   	background-color: white;
   	font-size: 20px;
   	font-family: "Helvetica";
@@ -57,13 +57,13 @@ progress::-moz-progress-bar{
 	font-size:180%;
 	color: red;
 }
-.nav_bar_elements {
+.nav_bar_elements{
 	-webkit-transition: opacity 0.2s ease-in-out;
 	-moz-transition: opacity 0.2s ease-in-out;
 	transition: 0.2s;
 	text-decoration: none;
 }
-.nav_bar_elements:hover {
+.nav_bar_elements:hover{
 	color: black;
   	zoom: 1;
  	-webkit-transition:0.5s;
@@ -128,13 +128,25 @@ input:invalid{
 input:valid{
 	border: 3px dashed green;
 }
-footer{
-	font-family: "Times New Roman";
-	font-style: italic;
-	font-size: 18px;
+#footer_left{
+	font-size: 70%;
+	font-family: "Helvetica";
+	display: inline-block;
 }
-footer{
-	font-size: 50%;
+#twitter_footer{
+	display: inline-block;
+	position: absolute;
+	right: 0;
+}
+#facebook_footer{
+	display: inline-block;
+	position: absolute;
+	right: 30px;
+}
+#instagram_footer{
+	display: inline-block;
+	position: absolute;
+	right: 59px;
 }
 li {
   	margin-left: 20px;
