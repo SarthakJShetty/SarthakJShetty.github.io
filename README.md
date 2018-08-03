@@ -1,3 +1,3 @@
 ## Repository of Github Page.
 
-### :warning: Work in progress :warning:
+### :warning: Work in progress. :warning:
