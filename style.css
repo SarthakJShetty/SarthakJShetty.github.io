@@ -140,7 +140,10 @@ input:valid{
 	font-family: "Helvetica";
 	text-align: center;
 }
-address{
+.address{
+	text-align: center;
+	font-size: 70%;
+	font-family: inherit;
 	text-align: center;
 }
 li {
