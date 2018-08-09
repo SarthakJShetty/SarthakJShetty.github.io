@@ -28,10 +28,6 @@ body{
 	max-width: auto;
 	margin-left: 30px;
 }
-address{
-	font-family: "Bookman Old Style";
-	font-size: 75%;
-}
 ul{
 	font-family: 'Fira Sans', sans-serif;
 }
@@ -82,16 +78,17 @@ progress::-moz-progress-bar{
 	width: 32px;
 }
 .name_title{
-	text-decoration: none;
 	font-size: 70px;
 	text-align: center;
 	font-family: 'Mukta', sans-serif;
+	color: black;
 }
 .name_title a{
 	text-decoration: none;
 	color: black;
 }
 .name_title a:visited{
+	text-decoration: none;
 	color: black;
 }
 .links{
