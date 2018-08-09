@@ -135,10 +135,13 @@ input:invalid{
 input:valid{
 	border: 3px dashed green;
 }
-#footer_left{
+.footer{
 	font-size: 70%;
 	font-family: "Helvetica";
-	display: inline-block;
+	text-align: center;
+}
+address{
+	text-align: center;
 }
 li {
   	margin-left: 20px;
