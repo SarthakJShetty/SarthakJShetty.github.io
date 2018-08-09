@@ -83,7 +83,7 @@ progress::-moz-progress-bar{
 	font-family: 'Mukta', sans-serif;
 	color: black;
 }
-.name_title a{
+.name_title a:link{
 	text-decoration: none;
 	color: black;
 }
