@@ -6,6 +6,9 @@ html{
 textarea{
 	font-family: 'Fira Sans', sans-serif;
 }
+::selection {
+  background: #abacad; /* WebKit/Blink Browsers */
+}
 h1{
 	font-size: auto;
 }
