@@ -42,9 +42,7 @@ progress{
 	border: none;
 	width: 400px;
 	height: 25px;
-	background: black;	
-}
-progress{
+	background: gray;
 	color: black;
 }
 progress::-webkit-progress-value{
