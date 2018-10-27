@@ -2,6 +2,10 @@ html{
   	background-color: white;
   	font-size: 20px;
   	font-family: 'Fira Sans', sans-serif;
+  	text-align: justify;
+}
+nav{
+	position: fixed;
 }
 textarea{
 	font-family: 'Fira Sans', sans-serif;
