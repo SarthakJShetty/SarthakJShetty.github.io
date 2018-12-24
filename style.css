@@ -56,6 +56,9 @@ progress::-moz-progress-bar{
 	font-size:180%;
 	color: red;
 }
+#nav_bar{
+	text-align: center;
+}
 .nav_bar_elements{
 	-webkit-transition: opacity 0.2s ease-in-out;
 	-moz-transition: opacity 0.2s ease-in-out;
@@ -65,7 +68,6 @@ progress::-moz-progress-bar{
 	width: auto;
 }
 .nav_bar_elements:hover{
-
 	color: black;
   	zoom: 1;
  	-webkit-transition:0.5s;
