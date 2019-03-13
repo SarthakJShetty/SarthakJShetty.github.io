@@ -8,7 +8,7 @@ textarea{
 	font-family: 'Fira Sans', sans-serif;
 }
 ::selection {
-  background: #abacad; /* WebKit/Blink Browsers */
+  background: #abacad;
 }
 h1{
 	font-size: auto;
@@ -24,7 +24,6 @@ h1{
 figcaption{
 	font-size: 15px;
 }
-
 body{
 	font: 1em/150% 'Fira Sans', sans-serif;
 	padding: 1em 1em 1em 1em;
@@ -43,7 +42,7 @@ progress{
 	border: none;
 	width: 400px;
 	height: 25px;
-	background: gray;
+	background: grey;
 	color: black;
 }
 progress::-webkit-progress-value{
@@ -125,6 +124,16 @@ a:link{
 }
 a:visited{
 	color: grey;
+}
+a.blog_title{
+	color: gray;
+	text-decoration: none;
+}
+a.blog_title:hover{
+	color:black;
+	zoom:1;
+	-webkit-transition: 0.5s;
+	opacity: 0.80;
 }
 h2{
 	color: grey;
