@@ -149,6 +149,12 @@ input:invalid{
 input:valid{
 	border: 3px dashed green;
 }
+.blog_date{
+	line-height: 3px;
+}
+.blog_location{
+	line-height: 5px;
+}
 .footer{
 	font-size: 70%;
 	font-family: 'Fira Sans', sans-serif;
