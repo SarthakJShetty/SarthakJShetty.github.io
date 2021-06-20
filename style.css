@@ -8,6 +8,10 @@ html {
 ::selection {
     background: #abacad;
 }
+code {
+    background: #EEEEEE;
+    font-family: Lucida;
+  }
 
 h1 {
     font-size: auto;
