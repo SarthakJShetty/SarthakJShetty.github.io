@@ -4,6 +4,8 @@ title: Publications
 permalink: /publications/
 ---
 
+For a full list of publciations, see my [Google Scholar](https://scholar.google.com/citations?user=Fs5XGDQAAAAJ).
+
 1. <a title='ToolFlowNet' target = "_blank" class="links" href='https://sites.google.com/view/point-cloud-policy/home'>ToolFlowNet</a>: Robotic Manipulation with Tools via Predicting Tool Flow from Point Clouds.  
 D. Seita, Y. Wang<b><span class="star">*</span></b>, <b>SJ. Shetty</b><b><span class="star">*</span></b>, EY. Li<b><span class="star">*</span></b>, Z. Erickson, D. Held.  
  <a title="CoRL 2022 Paper" target="_blank" class="links" href="https://corl2022.org/"><i>Conference on Robot Learning (CoRL)</i></a>, December 2022. <a title="TFN" href="https://github.com/DanielTakeshi/softagent_tfn" class="links" target="_blank">[Code]</a> <a title="Seita2022" href="https://sites.google.com/view/point-cloud-policy/home" class="links" target="_blank">[Paper]</a> <a title="Seita2022 arXiv" href="https://arxiv.org/abs/2211.09006" class="links" target="_blank">[arXiv]</a>
