@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /
 ---
 
 I currently work as Computer Vision Engineer at <a class="links" href="https://www.path-robotics.com">Path Robotics</a>, developing vision systems that power <a class="links" href="https://www.path-robotics.com/robotic-welding-systems/the-robots/af1/">autonomous manufacturing robots</a>.
