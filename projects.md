@@ -4,6 +4,8 @@ title: Projects
 permalink: /projects/
 ---
 
+For a full list of my projects, see my [GitHub](https://github.com/SarthakJShetty).
+
 - <strong><i><a title='ToolFlowNet' target = "_blank" class="links" href='https://sites.google.com/view/point-cloud-policy/home'>ToolFlowNet</a></i>: Robotic Manipulation with Tools via Predicting Tool Flow from Point Clouds</strong><a class="links" title="ToolFlowNet" href="https://github.com/DanielTakeshi/softagent_tfn" target="_blank"> [Code] </a> <a class="links" title="ToolFlowNet" href="https://arxiv.org/abs/2211.09006" target="_blank"> [Paper, CoRL '22] </a>  
     - Imitation learning from point clouds, for robot manipulation of deformable objects. PointNet++ Segmentation backbone imitates ~100 human demonstrations of the task.
     - Developed the entire physical experiments for this work, including setting up <a title="Rethink Sawyer" class="links" href="https://www.rethinkrobotics.com/sawyer">Rethink Sawyer</a> robot, extrinsic calibration of <a title="Azure Kinect" class="links" href="https://learn.microsoft.com/en-us/azure/kinect-dk/sensor-sdk-download">Azure Kinect</a> depth sensor, writing human data collection system, collecting multiple sessions worth of human demonstrations, deploying trained network on Rethink Sawyer, and adapting training code to work with real data.
