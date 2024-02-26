@@ -8,7 +8,7 @@ categories: math linear-algebra
 I'm starting to publish these notes, for two main reasons:
 
 1. I find myself revisiting these topics, especially when reading 3D vision papers, and Googling about them leads to weird SEO'd websites and secondly,
-2. I enjoy writing in LaTeX, and I'd like to get better at it; especially now that [I no longer write longform](16831-latex-notes) LaTeX as part of coursework.
+2. I enjoy writing in LaTeX, and I'd like to get better at it; especially now that [I no longer write longform][16831-latex-notes] LaTeX as part of coursework.
 
 #### Context:
 
