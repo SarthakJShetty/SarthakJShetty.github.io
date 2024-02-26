@@ -1,29 +1,54 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2024-02-13 23:07:09 -0500
-categories: jekyll update
+title:  "Symmetric and Skew-Symmetric Matrices"
+date:   2024-02-25 23:28:09 -0500
+categories: math linear-algebra
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Jekyll requires blog post files to be named according to the following format:
+I'm starting to publish these notes, for two main reasons:
 
-`YEAR-MONTH-DAY-title.MARKUP`
+1. I find myself revisiting these topics, especially when reading 3D vision papers, and Googling about them leads to weird SEO'd websites and secondly,
+2. I enjoy writing in LaTeX, and I'd like to get better at it; especially now that [I no longer write longform](16831-latex-notes) LaTeX as part of coursework.
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+#### Context:
 
-Jekyll also offers powerful support for code snippets:
+Symmetric matrices are matrices that have the property:
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+$$A = A^T \tag{1}$$
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+Skew-symmetric matrices on the other hand have a related but slightly different property:
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+$$A = -A^T \tag{2}$$
+
+
+#### Property:
+
+An interesting property that emerges as a consequence of this relationship, is that if a matrix $$A$$ is skew-symmetric, then its inverse, $$A^{-1}$$, is also skew-symmetric; i.e:
+
+$$A^{-1} = -(A^{-1})^{T} \tag{3}$$
+
+
+We can prove this from the above equation, and a familar property which is:
+
+If $$A$$ is invertible, then (I'll show this proof in a future post):
+
+$$(A^{-1})^{T} = (A^{T})^{-1} \tag{4}$$
+
+
+Given this relationship, we can use Eq. $$(4)$$ in the RHS of Eq. $$(3)$$ to get:
+
+$$-(A^{-1})^{T} = -(A^{T})^{-1}\tag{5}$$
+
+And, since we established in Eq. $$(1)$$ that $$A$$ is skew-symmetric already we have:
+
+
+$$-(A^{-1})^{T} = -(A^{T})^{-1} = -(-A)^{-1} = A^{-1}\tag{6}$$
+
+Therefore proving Eq. $$(3)$$
+
+I found this StackOverflow answer helpful [[1](stackoverflow-1)] while recollecting these topics.
+
+[16831-latex-notes]: https://github.com/kshitijgoel007/16831-Spring-2022/commits/main/?author=SarthakJShetty
+[stackoverflow-1]: https://math.stackexchange.com/a/368131
+
+-Sarthak
