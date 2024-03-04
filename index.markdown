@@ -14,7 +14,8 @@ I was a Research Assistant at the [Indian Institute of Science](https://iisc.ac.
 
 I interned at the [Theoretical Ecology and Evolution Laboratory](https://teelabiisc.wordpress.com/) at IISc, advised by [Prof. Vishwesha Guttal](https://teelabiisc.wordpress.com/curriculum-vitae/), where I worked on [multi-robot systems](https://github.com/SarthakJShetty/Transient) inspired by ant swarms. I also interned at the [Center for Systems Design](https://csd.nitk.ac.in/) at the [National Institute of Technology - Surathkal](https://nitk.ac.in), advised by [Prof. KV Gangadharan](https://mech.nitk.ac.in/faculty/k-v-gangadharan), where I worked on [small scale autonomous vehicles](https://github.com/SarthakJShetty/Donkey), that used imitation learning to steer around a track.
 
-I am currently exploring robot manipulation using dense 3D features and scaling up (pre-)training for robot learning. If you're interested in these questions, [please get in touch](mailto:sjshetty@andrew.cmu.edu)!
+I am currently exploring robot manipulation using dense 3D features and scaling up (pre-)training for robot learning. 
 
+I'm also deeply passionate about conservation, and have previously worked with ecologists and conservationists from [Columbia University](https://www.columbia.edu/), [Nature Conservation Foundation](https://www.ncf-india.org/) and [Panthera](https://panthera.org/). These projects have helped shape policy work around [wildlife monitoring in human conflict zones](https://conbio.onlinelibrary.wiley.com/doi/full/10.1111/conl.12815) and [analyzing threats to global biodiversity hotspots](https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.8098).
 
-[jekyll-organization]: https://github.com/jekyll
+If you're interested in any of these topics, across robotics, vision or conservation, [please get in touch](mailto:sjshetty@andrew.cmu.edu)!
