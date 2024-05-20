@@ -4,9 +4,9 @@ title: About
 permalink: /
 ---
 
-I currently work as Computer Vision Engineer at [Path Robotics](https://www.path-robotics.com), developing vision systems that power [autonomous manufacturing robots](https://www.path-robotics.com/robotic-welding-systems/the-robots/af1/).
+I currently work as a Computer Vision Engineer at [Path Robotics](https://www.path-robotics.com), developing vision systems that power [autonomous manufacturing robots](https://www.path-robotics.com/robotic-welding-systems/the-robots/af1/).
 
-I graduated from [Carnegie Mellon University](https://cmu.edu) with a Master's in Mechanical Engineering in 2023. At CMU I worked on [robot learning](https://sites.google.com/view/point-cloud-policy/home) and was advised by [Prof. Daniel Seita](https://danielseita.github.io/) and [Prof. David Held](https://davheld.github.io/) in the [Robots Perceiving and Doing Lab](https://r-pad.github.io/), located in the [Robotics Institute](https://ri.cmu.edu).
+I graduated from [Carnegie Mellon University](https://cmu.edu) with a Master's in Mechanical Engineering in 2023. At CMU I worked on [robot learning](https://sites.google.com/view/point-cloud-policy/home) and was advised by [Prof. Daniel Seita](https://danielseita.github.io/) and [Prof. David Held](https://davheld.github.io/) in the [Robots Perceiving and Doing Lab](https://r-pad.github.io/), located in the [Robotics Institute](https://ri.cmu.edu). I also worked on bimanual manipulation, extending grasping techniques and using GANs for generating labelled data.
 
 I was a Research Intern at [Intel Labs](https://www.intel.in/content/www/in/en/research/overview.html), in the Silicon and Systems Prototyping Labs, where I worked on RGB-D and monocular SLAM systems. I developed modules pertaining to pose estimation, sparse map storage and retrieval, trajectory prediction with Kalman Filters, and visual feature extraction.
 
@@ -18,4 +18,4 @@ I am currently exploring robot manipulation using dense 3D features and scaling 
 
 I'm also deeply passionate about conservation, and have previously worked with ecologists and conservationists from [Columbia University](https://www.columbia.edu/), [Nature Conservation Foundation](https://www.ncf-india.org/) and [Panthera](https://panthera.org/). These projects have helped shape policy work around [wildlife monitoring in human conflict zones](https://conbio.onlinelibrary.wiley.com/doi/full/10.1111/conl.12815) and [analyzing threats to global biodiversity hotspots](https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.8098).
 
-If you're interested in any of these topics, across robotics, vision or conservation, [please get in touch](mailto:sjshetty@andrew.cmu.edu)!
+If you're interested in any of these topics, across robotics, vision or conservation, [please get in touch](mailto:sjshetty@alumni.cmu.edu)!
