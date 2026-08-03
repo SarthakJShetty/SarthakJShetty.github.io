@@ -4,7 +4,7 @@ title: About
 permalink: /
 ---
 
-I'm a Machine Learning Engineer in [Wayve](https://wayve.ai), working on pretraining. I was a Computer Vision Engineer at [Path Robotics](https://www.path-robotics.com), where I worked on end-to-end manipulation for [autonomous manufacturing robots](https://www.path-robotics.com/robotic-welding-systems/af1/) and large-scale vision systems for [autonomous welding robots](https://www.path-robotics.com/robotic-welding-systems/aw3/).
+I'm a Machine Learning Engineer at [Wayve](https://wayve.ai), working on pretraining. I was a Computer Vision Engineer at [Path Robotics](https://www.path-robotics.com), where I worked on end-to-end manipulation for [autonomous manufacturing robots](https://www.path-robotics.com/robotic-welding-systems/af1/) and large-scale vision systems for [autonomous welding robots](https://www.path-robotics.com/robotic-welding-systems/aw3/).
 
 I graduated from [Carnegie Mellon University](https://cmu.edu) where I worked on [robot learning](https://sites.google.com/view/point-cloud-policy/home). I was advised by [Prof. Daniel Seita](https://danielseita.github.io/) and [Prof. David Held](https://davheld.github.io/) in the [Robots Perceiving and Doing Lab](https://r-pad.github.io/), which is a part of the [Robotics Institute](https://ri.cmu.edu). I worked on bimanual manipulation, grasping and using GANs for synthetic data generation.
 
